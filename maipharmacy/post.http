@@ -1,0 +1,16 @@
+POST http://localhost:3000/cat
+Content-Type: application/json
+
+{
+  "name": "Supplements",
+  "subCategory": [
+    {"name": "Heart Health"},
+    {"name": "Gut Health"},
+    {"name": "Skin, Hair, Nails"},
+    {"name": "Hydration & Electrolytes"},
+    {"name": "Women's Health"},
+    {"name": "Kids"},
+    {"name": "Superfoods"},
+    {"name": "Multivitamins"}
+  ]
+}

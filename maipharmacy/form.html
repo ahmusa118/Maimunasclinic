@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Medicine Form</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="description">Description:</label><br>
+      <input type="text" id="description" name="description"><br>
+      <label for="stock">Stock:</label><br>
+      <input type="number" id="stock" name="stock"><br>
+      <label for="stock">Price:</label><br>
+      <input type="number" id="price" name="price"><br>
+      <label for="category">Category:</label><br>
+      <input type="text" id="category" name="category"><br>
+      <label for="subcategory">Subcategory:</label><br>
+      <input type="text" id="subcategory" name="subcategory"><br>
+      <label for="images">Images:</label><br>
+      <input type="file" id="images" name="images" multiple><br>
+      <label for="paid">Paid:</label><br>
+      <select id="paid" name="paid">
+        <option value="no">No</option>
+        <option value="yes">Yes</option>
+      </select><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

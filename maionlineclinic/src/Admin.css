@@ -1,0 +1,61 @@
+.admin-container {
+    padding: 20px;
+  }
+  
+  .admin-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .admin-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .admin-item-info {
+    flex: 1;
+  }
+  
+  .admin-item-email {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .admin-item-address {
+    color: #666;
+  }
+  
+  .admin-item-icon {
+    color: #4caf50;
+    font-size: 24px;
+  }
+  
+  .admin-item-details {
+    margin-top: 10px;
+  }
+  
+  .admin-item-medname,
+  .admin-item-quantity,
+  .admin-item-category,
+  .admin-item-subcategory {
+    margin-bottom: 5px;
+  }
+  
+  .admin-item-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-item-button:hover {
+    background-color: #45a049;
+  }
+  
